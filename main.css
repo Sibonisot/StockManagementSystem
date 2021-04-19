@@ -1,0 +1,245 @@
+html {
+    
+    background-color: #e6e6e6;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    color: #333333;
+}
+
+h1, h2{
+    color: #004556;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    border-bottom: solid 2px navy;
+}
+
+h3 {
+    color:  navy;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+ h2{
+    color: #004556;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+ }
+
+ h4 {
+     font-weight: lighter;
+     text-align: center;
+ }
+
+nav h1 {
+    text-align: center;
+    color: navy;
+    padding: 15px;
+    border-bottom: solid 2px navy;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    width: 211px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: navy;
+    background-color: #ffffff;
+    border: solid 2px #999999;
+    border-radius: 3px;
+}
+
+nav li a:hover {
+    background-color: navy;
+    color: #ffffff;
+}
+
+td.hover_item:hover {
+	background-color: red;
+        color: white;
+}
+
+td.hover_itemU:hover {
+	background-color: greenyellow;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+a {
+  color: #424;
+  padding:15px;
+  text-decoration: none;
+  font-size: 12px
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+//form { width: 400px; }
+label { float: left; width: 150px; }
+input { float: left; width: 13em;margin-bottom: 5px; }
+
+
+.floatright { float: left;
+padding-top: 0px;
+}
+
+.label {
+    width: 15em;
+    clear:  both;
+    
+}
+textarea {
+    width: 26.1em;
+    float: left;
+     clear:  both;
+     margin-bottom: 0px;
+}
+
+.checkbox {
+   //display: inline-block;
+        text-align: left;
+        float:left;
+}
+
+.radio {
+  display: block;
+  position: relative;
+ float: left;
+ clear: both;
+}
+
+main {
+    display: block;
+    width: 857px;
+    margin: 0 auto ;
+    padding: 1em;
+    background: white;
+    border: 2px solid grey;
+}
+
+h1 {
+    font-size: 25px;
+    margin-top: 0;
+    color: navy;
+}
+
+br {
+    clear: both;
+    margin-bottom: .2em;
+}
+.error_message {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ff0033;
+    padding: 0px;
+}
+
+.info_message {
+    font-size: 16px;
+    font-weight: 700;
+    color: #00cc00;
+    padding: 0px;
+}
+/* ----- output ----- */
+
+.output {
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+iframe {
+    margin:10px auto;
+    border: 2px solid #73AD60;
+    padding: 10px;
+    display: block;
+    width: 868px;
+    background-color:#cee6f5
+    
+} 
+
+li a.active1 {
+    background-color: #00FFFF;
+    color: white;
+}
+li a.hover:not(.active) {
+    background-color: #588;
+    color: white;
+}
+.current {
+    background-color: red;
+    color: white;
+}
+/* ----- forms ----- */
+
+
+select {
+    width: 11em;
+    margin-bottom: 5px;
+}
+
+
+
+/* ----- tables ----- */
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #999999;
+    font-size: 0.8em;
+}
+
+th {
+    background-color: #e6e6e6;
+    color: navy;
+}
+
+table tr:nth-child(even) {
+    background-color: #ffffff;
+}
+table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+table, th, td {
+    border: 1px solid #999999;
+    padding: 5px;
+}
+
+.numbers_col {
+    text-align: right;
+}
+
+/* ----- boxes ----- */
+.left {
+    float: left;
+    padding-right: 20px;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}

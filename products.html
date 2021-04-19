@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="#">
+        <link rel="stylesheet" type="text/css" href="main.css">
+       <script type="text/javascript" src="addproducts.js"></script>
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
+            
+
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a  href="index.html">Home</a></li>
+                <li><a  href="products.html">Products</a></li>
+                <li><a  href="remove_product.html">Remove Product</a></li>
+                <li><a  href="stock_level.html">Stock Level</a></li>
+            </ul>
+        </nav> 
+
+    <main>
+
+
+        <form>
+            <br/>
+            <label for="products1">Product Name:</label>
+			 <input type="text" name="pdt" id="product" /><br/><br/>
+
+            <label for="quantity">Quantity :   </label>
+            <input type="number" name="qty" id="quantity" /><br/><br/>
+            <label for="price">Price :</label>
+            <input type="text" name="prc" id="price" value="R"/><br/><br/>
+            <button type="button" id="insert" class="btn btn-success">Add Product</button>
+            <button type="button" id="create" class="btn btn-success">Create Table</button>
+            <button type="button" id="list" class="btn btn-success">Display Products</button><br/>
+            <p><small><b>Note:</b> Table must be created first before performing any transaction.</small></p>
+        </form>
+
+        <div>
+            <h3>Product Table</h3>
+            <table class="table table-bordered table-hover" id="itemlist">
+			<tr >Product ID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tr>
+			<tr>Product Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tr>
+			<tr>Quantity&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tr>
+			<tr>Product Price</tr>
+
+            </table>
+        </div>
+    </main>
+<script type="text/javascript">
+
+</script>
+
+</body>
+</html>
